@@ -1,0 +1,229 @@
+{
+    "productos": [
+        {
+            "id": 1,
+            "nombre": "Huntsman V3 Pro",
+            "descripcion": "Teclado óptico analógico de alto rendimiento con switches Rapid Trigger.",
+            "imagen": "img/keyboard/Razer Huntsman V3 Pro.png",
+            "precio": 199.99,
+            "marca": "Razer",
+            "categoria": "teclado"
+        },
+        {
+            "id": 2,
+            "nombre": "Viper V3 Pro",
+            "descripcion": "Mouse inalámbrico ultraligero con sensor Focus Pro 30K.",
+            "imagen": "img/mouse/Razer Viper V3 Pro.png",
+            "precio": 129.99,
+            "marca": "Razer",
+            "categoria": "mouse"
+        },
+        {
+            "id": 3,
+            "nombre": "Barracuda X",
+            "descripcion": "Audífonos inalámbricos híbridos versátiles y ligeros.",
+            "imagen": "img/headset/Razer Barracuda X.png",
+            "precio": 89.99,
+            "marca": "Razer",
+            "categoria": "headset"
+        },
+        {
+            "id": 4,
+            "nombre": "Goliathus",
+            "descripcion": "Mousepad extendido premium con superficie optimizada para gaming.",
+            "imagen": "img/mousepad/Razer Goliathus Extended Chroma.png",
+            "precio": 39.99,
+            "marca": "Razer",
+            "categoria": "mousepad"
+        },
+        {
+            "id": 5,
+            "nombre": "BlackWidow V4 Pro",
+            "descripcion": "Teclado mecánico premium con iluminación Chroma RGB avanzada.",
+            "imagen": "img/keyboard/Razer BlackWidow V4 Pro.png",
+            "precio": 189.99,
+            "marca": "Razer",
+            "categoria": "teclado"
+        },
+        {
+            "id": 6,
+            "nombre": "DeathAdder V3 Pro",
+            "descripcion": "Mouse inalámbrico ergonómico ultraligero con sensor Focus Pro.",
+            "imagen": "img/mouse/Razer DeathAdder V3 Pro.png",
+            "precio": 99.99,
+            "marca": "Razer",
+            "categoria": "mouse"
+        },
+        {
+            "id": 7,
+            "nombre": "BlackShark V2 Pro",
+            "descripcion": "Audífonos inalámbricos para esports con audio THX Spatial.",
+            "imagen": "img/headset/Razer BlackShark V2 Pro.png",
+            "precio": 169.99,
+            "marca": "Razer",
+            "categoria": "headset"
+        },
+        {
+            "id": 8,
+            "nombre": "Steelseries Qck",
+            "descripcion": "Mousepad de tela de gran tamaño con superficie controlada.",
+            "imagen": "img/mousepad/Mouse Pad Gamer Steelseries Qck Heavy Xx.png",
+            "precio": 179.99,
+            "marca": "Steelseries",
+            "categoria": "mousepad"
+        },
+        {
+            "id": 9,
+            "nombre": "Logitech G Pro X",
+            "descripcion": "Mouse inalámbrico ultraligero diseñado para profesionales de esports.",
+            "imagen": "img/mouse/Logitech G Pro X Superlight 2.png",
+            "precio": 139.99,
+            "marca": "Logitech",
+            "categoria": "mouse"
+        },
+        {
+            "id": 10,
+            "nombre": "Razer Ornata V3",
+            "descripcion": "Teclado membrane con iluminación Chroma RGB y diseño ergonómico.",
+            "imagen": "img/keyboard/Razer Ornata V3.png",
+            "precio": 59.99,
+            "marca": "Razer",
+            "categoria": "teclado"
+        },
+        {
+            "id": 11,
+            "nombre": "Logitech Lightspeed Pro X 2",
+            "descripcion": "Audífonos inalámbricos premium con sonido claro y micrófono superior.",
+            "imagen": "img/headset/Logitech G Pro X 2 Lightspeed.png",
+            "precio": 199.99,
+            "marca": "Logitech",
+            "categoria": "headset"
+        },
+        {
+            "id": 12,
+            "nombre": "SteelSeries Aerox 5",
+            "descripcion": "Mouse ultraligero con diseño de panal y switches magnéticos.",
+            "imagen": "img/mouse/SteelSeries Aerox 5 Wireless.png",
+            "precio": 89.99,
+            "marca": "Steelseries",
+            "categoria": "mouse"
+        },
+        {
+            "id": 13,
+            "nombre": "Logitech G Pro X TKL",
+            "descripcion": "Teclado inalámbrico TKL de alto rendimiento para esports.",
+            "imagen": "img/keyboard/Logitech G Pro X TKL Wireless.png",
+            "precio": 129.99,
+            "marca": "Logitech",
+            "categoria": "teclado"
+        },
+        {
+            "id": 14,
+            "nombre": "Logitech G733 Lightspeed",
+            "descripcion": "Audífonos gaming inalámbricos ligeros con iluminación RGB.",
+            "imagen": "img/headset/Logitech G733 Lightspeed.png",
+            "precio": 129.99,
+            "marca": "Logitech",
+            "categoria": "headset"
+        },
+        {
+            "id": 15,
+            "nombre": "Logitech G502 X Lightspeed",
+            "descripcion": "Mouse inalámbrico con botones programables y sensor de alta precisión.",
+            "imagen": "img/mouse/Logitech G502 X Lightspeed.png",
+            "precio": 109.99,
+            "marca": "Logitech",
+            "categoria": "mouse"
+        },
+        {
+            "id": 16,
+            "nombre": "Logitech G915 Lightspeed",
+            "descripcion": "Teclado mecánico inalámbrico ultra delgado con switches GL.",
+            "imagen": "img/keyboard/Logitech G915 Lightspeed TKL.png",
+            "precio": 179.99,
+            "marca": "Logitech",
+            "categoria": "teclado"
+        },
+        {
+            "id": 17,
+            "nombre": "SteelSeries Arctis Nova",
+            "descripcion": "Audífonos premium con audio inmersivo y micrófono AI.",
+            "imagen": "img/headset/SteelSeries Arctis Nova Pro Wireless.png",
+            "precio": 249.99,
+            "marca": "Steelseries",
+            "categoria": "headset"
+        },
+        {
+            "id": 18,
+            "nombre": "SteelSeries Rival 3",
+            "descripcion": "Mouse inalámbrico compacto y preciso para gaming competitivo.",
+            "imagen": "img/mouse/SteelSeries Rival 3 Wireless.png",
+            "precio": 49.99,
+            "marca": "Steelseries",
+            "categoria": "mouse"
+        },
+        {
+            "id": 19,
+            "nombre": "Logitech G413 SE",
+            "descripcion": "Teclado mecánico resistente con switches Tactile.",
+            "imagen": "img/keyboard/Logitech G413 SE.png",
+            "precio": 69.99,
+            "marca": "Logitech",
+            "categoria": "teclado"
+        },
+        {
+            "id": 20,
+            "nombre": "SteelSeries Arctis 7+",
+            "descripcion": "Audífonos inalámbricos con excelente autonomía y sonido claro.",
+            "imagen": "img/headset/SteelSeries Arctis 7+.png",
+            "precio": 149.99,
+            "marca": "Steelseries",
+            "categoria": "headset"
+        },
+        {
+            "id": 21,
+            "nombre": "Razer Basilisk V3 Pro",
+            "descripcion": "Mouse inalámbrico ergonómico con botones programables y RGB.",
+            "imagen": "img/mouse/Razer Basilisk V3 Pro.png",
+            "precio": 149.99,
+            "marca": "Razer",
+            "categoria": "mouse"
+        },
+        {
+            "id": 22,
+            "nombre": "SteelSeries Apex Pro",
+            "descripcion": "Teclado mecánico con switches ajustables OmniPoint.",
+            "imagen": "img/keyboard/SteelSeries Apex Pro TKL.png",
+            "precio": 169.99,
+            "marca": "Steelseries",
+            "categoria": "teclado"
+        },
+        {
+            "id": 23,
+            "nombre": "Logitech G305 Lightspeed",
+            "descripcion": "Mouse inalámbrico compacto y confiable para gaming.",
+            "imagen": "img/mouse/Logitech G305 Lightspeed.png",
+            "precio": 49.99,
+            "marca": "Logitech",
+            "categoria": "mouse"
+        },
+        {
+            "id": 24,
+            "nombre": "SteelSeries Apex 5",
+            "descripcion": "Teclado híbrido con switches mecánicos y pantalla OLED.",
+            "imagen": "img/keyboard/SteelSeries Apex 5.png",
+            "precio": 99.99,
+            "marca": "Steelseries",
+            "categoria": "teclado"
+        },
+        {
+            "id": 25,
+            "nombre": "SteelSeries Aerox 3",
+            "descripcion": "Mouse ultraligero con diseño de panal y resistencia al agua.",
+            "imagen": "img/mouse/SteelSeries Aerox 3 Wireless.png",
+            "precio": 69.99,
+            "marca": "Steelseries",
+            "categoria": "mouse"
+        }
+    ]
+}

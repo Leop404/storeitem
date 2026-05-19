@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StoreItem</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+
+<body>
+    <!-- NavBar -->
+    <nav class="navbar">
+        <div class="logo">
+            <a href="#hero">StoreItem</a>
+        </div>
+
+        <ul class="menu">
+            <li><a href="#hero">Inicio</a></li>
+            <li><a href="#catalogo">Catálogo</a></li>
+            <li><a href="#soporte">Soporte</a></li>
+        </ul>
+
+        <div class="right-section">
+            <div class="search-box">
+                <input type="text" id="search-input" placeholder="Buscar productos...">
+                <i class="fas fa-search"></i>
+            </div>
+
+            <div class="cart" id="cart-icon">
+                <i class="fas fa-shopping-cart"></i>
+                <span class="cart-count" id="cart-count">0</span>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section id="hero">
+            <section class="hero-text">
+                <h1>HARDWARE DE PRECISIÓN GAMING</h1>
+                <p>Tu ventaja competitiva empieza aquí.</p>
+                <a class="hero-link" href="#catalogo">Equipate Ahora</a>
+                <a class="hero-link arrow" href="#catalogo">></a>
+            </section>
+        </section>
+
+        <section id="catalogo">
+            <h2>Catálogo de Productos</h2>
+
+            <!-- Filtros -->
+            <div class="category-filters">
+                <button class="filter-btn active" data-category="all">Todos</button>
+                <button class="filter-btn" data-category="teclado">Teclados</button>
+                <button class="filter-btn" data-category="mouse">Mouses</button>
+                <button class="filter-btn" data-category="headset">Auriculares</button>
+                <button class="filter-btn" data-category="mousepad">Mousepads</button>
+            </div>
+
+            <section class="catalog-container">
+            </section>
+        </section>
+
+        <div id="product-modal" class="modal">
+            <div class="modal-content">
+                <span class="close-modal">&times;</span>
+                <div class="modal-body">
+                    <div class="modal-left">
+                        <img id="modal-img" src="" alt="">
+                    </div>
+                    <div class="modal-right">
+                        <h2 id="modal-title"></h2>
+                        <p id="modal-desc"></p>
+                        <p id="modal-price"></p>
+                        <div class="quantity-selector">
+                            <button id="minus">-</button>
+                            <input type="number" id="qty" value="1" min="1" readonly>
+                            <button id="plus">+</button>
+                        </div>
+                        <button id="btn-add-to-cart" class="btn-add-cart">AÑADIR AL CARRITO</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal del Carrito -->
+        <div id="cart-modal" class="modal">
+            <div class="modal-content cart-modal-content">
+                <span class="close-modal" id="close-cart-modal">&times;</span>
+
+                <h2>Tu Carrito</h2>
+
+                <div id="cart-items" class="cart-items">
+                </div>
+
+                <div class="cart-total">
+                    <strong>Total: $<span id="cart-total-amount">0.00</span></strong>
+                </div>
+
+                <div class="cart-buttons">
+                    <button id="btn-clear-cart" class="btn-clear">Vaciar Carrito</button>
+                    <button id="btn-checkout" class="btn-checkout">Proceder al Pago</button>
+                </div>
+            </div>
+        </div>
+
+        <section id="soporte">
+            <div class="support-section">
+                <div class="support-container">
+                    <div class="support-icon">?</div>
+
+                    <h2 class="support-title">¿NECESITAS AYUDA?</h2>
+                    <p class="support-text">Obtén soporte rápido de nuestro equipo de expertos.</p>
+
+                    <a href="mailto:soporte@storeitem.com" class="btn-support">
+                        CONTACTANOS
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="footer">
+            <footer>
+                <p>&copy; 2026 StoreItem. Todos los derechos reservados.</p>
+            </footer>
+        </section>
+
+    </main>
+
+    <script src="index.js"></script>
+    <script src="node_modules/sweetalert2/dist/sweetalert2.all.min.js"></script>
+</body>
+
+</html>
